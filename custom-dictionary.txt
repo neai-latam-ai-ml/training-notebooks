@@ -1,0 +1,7 @@
+agentic
+chromadb
+faiss
+icns
+ipynb
+langchain
+langgraph
