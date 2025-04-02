@@ -5,3 +5,4 @@ icns
 ipynb
 langchain
 langgraph
+vectorstores
