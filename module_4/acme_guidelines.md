@@ -4,7 +4,7 @@ The following document states the configuration policies of the devices of the A
 
 ## Addressing Schema
 
-1. Routable addresses used on physical Interfaces (E.g: Ethernet 1/2), Port-Chanels (port-channel1) or SVI Interfaces must be taken from the CIDR 10.1.0.0/8
+1. Routable addresses used on physical Interfaces (E.g: Ethernet 1/2), Port-Chanels (port-channel1) or SVI Interfaces must be taken from the CIDR 10.1.0.0/16
 
     Example: 
     This is a valid interface configuration
@@ -22,7 +22,7 @@ The following document states the configuration policies of the devices of the A
 
     ```
     router ospf OSPF1
-        router-id  172.1.1.5
+        router-id  172.20.1.5
     ```
 
 
