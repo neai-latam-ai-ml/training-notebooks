@@ -40,7 +40,7 @@ The following document states the configuration policies of the devices of the A
 ## Security protocols
 
 
-1. The only valid hashing protocol for payload integrity is MD5. This applies for SNMP configurations and authenticated BGP peerings as shown below:
+1. The only valid hashing protocol for payload integrity is SHA. This applies for SNMP configurations and authenticated BGP peerings as shown below:
 
     ```
     snmp-server user MYUSER MYGROUP v3 auth sha <password> priv aes 256 <password>
